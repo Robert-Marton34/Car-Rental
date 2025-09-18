@@ -1,0 +1,38 @@
+{
+    "67826d920457b": {
+        "fullname": "Rob",
+        "email": "one@email.com",
+        "password": "$2y$10$UTHHLTqqn01jJUO3qWdJZ.WWP2rhFafGkaWjUrTIhYTJPNs\/QEUyy",
+        "roles": [
+            "user"
+        ],
+        "id": "67826d920457b"
+    },
+    "admin_unique_id": {
+        "fullname": "Admin",
+        "email": "admin@ikarrental.hu",
+        "password": "$2y$10$2y7WbLJauIWmrOcaRUrMheB9bxappFcMQA7TpK.XnUCi3XiKvL3tu",
+        "roles": [
+            "admin"
+        ],
+        "id": "admin_unique_id"
+    },
+    "67868fd928473": {
+        "fullname": "Shockwave",
+        "email": "orion@iacon.com",
+        "password": "$2y$10$QgjDb6yoqCmtRNBf4HAB7OhnfQHVoufT5tfi1CdHY.Pf8HrB9XhNu",
+        "roles": [
+            "user"
+        ],
+        "id": "67868fd928473"
+    },
+    "6786ce50087d1": {
+        "fullname": "Zizi",
+        "email": "zizi@reinhardt.com",
+        "password": "$2y$10$Ac\/4arBbo8Qs.VkqM\/JN3OzqzS9CJAqWzUH\/pS4LX2gvVV6hVqpUW",
+        "roles": [
+            "user"
+        ],
+        "id": "6786ce50087d1"
+    }
+}

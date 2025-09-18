@@ -1,0 +1,65 @@
+{
+    "6785bb992c5de": {
+        "start_date": "2004-04-25",
+        "end_date": "2005-05-25",
+        "car_id": "3",
+        "user_email": "admin@ikarrental.hu",
+        "id": "6785bb992c5de"
+    },
+    "6785be8d0767e": {
+        "start_date": "2014-12-30",
+        "end_date": "2015-01-05",
+        "car_id": "13",
+        "user_email": "admin@ikarrental.hu",
+        "id": "6785be8d0767e"
+    },
+    "678680725fded": {
+        "start_date": "2015-04-02",
+        "end_date": "2015-05-05",
+        "car_id": "4",
+        "user_email": "admin@ikarrental.hu",
+        "id": "678680725fded"
+    },
+    "6786811ad6f03": {
+        "start_date": "2025-01-14",
+        "end_date": "2025-03-04",
+        "car_id": "8",
+        "user_email": "one@email.com",
+        "id": "6786811ad6f03"
+    },
+    "6786bb5d5c9cd": {
+        "start_date": "2025-05-17",
+        "end_date": "2025-05-20",
+        "car_id": "10",
+        "user_email": "admin@ikarrental.hu",
+        "id": "6786bb5d5c9cd"
+    },
+    "6786c1540a5f2": {
+        "start_date": "2025-01-15",
+        "end_date": "2025-02-15",
+        "car_id": "1",
+        "user_email": "one@email.com",
+        "id": "6786c1540a5f2"
+    },
+    "6786cb269733b": {
+        "start_date": "2025-05-10",
+        "end_date": "2025-06-10",
+        "car_id": "6786c43c70836",
+        "user_email": "admin@ikarrental.hu",
+        "id": "6786cb269733b"
+    },
+    "6786ce849f4fb": {
+        "start_date": "2025-01-14",
+        "end_date": "2025-01-24",
+        "car_id": "6786ce0d65cde",
+        "user_email": "zizi@reinhardt.com",
+        "id": "6786ce849f4fb"
+    },
+    "6786ceb1de047": {
+        "start_date": "2001-09-11",
+        "end_date": "2001-09-11",
+        "car_id": "6786c33a838cd",
+        "user_email": "zizi@reinhardt.com",
+        "id": "6786ceb1de047"
+    }
+}

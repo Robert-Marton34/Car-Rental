@@ -1,0 +1,460 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.y_button {
+    padding: 10px 20px;
+    font-size: 12px;
+    background-color: #f1c40f;
+    color: #1a1a1a;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.y_button:hover {
+    background-color: #d4ac0d;
+}
+
+.l_button {
+    padding: 10px 20px;
+    font-size: 12px;
+    background-color: #3c3a3a;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.l_button:hover {
+    background-color: #444;
+}
+
+.y_button02 {
+    padding: 8px 10px;
+    background-color: #f1c40f;
+    color: #1a1a1a;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.y_button02:hover {
+    background-color: #d4ac0d;
+}
+
+.l_button02 {
+    padding: 8px 10px;
+    background-color: #3c3a3a;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.l_button02:hover {
+    background-color: #444;
+}
+
+.d_button {
+    padding: 8px 10px;
+    background-color: #552929;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.d_button:hover {
+    background-color: #4c3a3a;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2a2a2a;
+    padding: 10px 20px;
+}
+.navbar .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.navbar .nav_links {
+    display: flex;
+    gap: 10px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: left;
+    padding: 50px 20px;
+    background-color: #1a1a1a;
+}
+.hero h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 0 20px;
+}
+.hero button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f1c40f;
+    color: #1a1a1a;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.hero button:hover {
+    background-color: #d4ac0d;
+}
+
+/* Car Listings */
+.car_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.car_card {
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px;
+}
+.car_card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #444;
+}
+.car_card .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.car_card .info_text {
+    max-width: 70%;
+}
+.car_card h2 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+.car_card p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #aaaaaa;
+}
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+/*Filter*/
+.options {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #2a2a2a;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+.filters label {
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.filters input,
+.filters select {
+    padding: 8px;
+    font-size: 14px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border: 1px solid #444;
+    border-radius: 5px;
+    max-width: 100px;
+    text-align: center;
+}
+
+.filters input[type="date"] {
+    max-width: 140px;
+}
+
+.filters input[type="number"] {
+    max-width: 80px;
+}
+
+.filters select {
+    max-width: 120px;
+}
+
+.filters button {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #f1c40f;
+    color: #1a1a1a;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.filters button:hover {
+    background-color: #d4ac0d;
+}
+
+.filters div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.filters div input {
+    text-align: right;
+}
+
+.filters .price-range {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.filters .price-range span {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.add_button {
+    margin: 10px 5px 10px 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3c3a3a;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add_button:hover {
+    background-color: #444;
+}
+
+/* form */
+
+.forming {   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    margin-top: 80px; 
+    background-color: #2a2a2a;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    max-width: 500px;
+    margin: 40px auto;
+}
+
+.forming h1 {
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+.forming form {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;  
+    width: 100%;
+}
+
+.forming input[type="number"],
+.forming input[type="email"],
+.forming input[type="text"],
+.forming input[type="password"],
+.forming select {
+    width: 80%;  
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.forming button {
+    width: 80%;  /* Set the width to 80% for the button */
+    padding: 15px;
+    background-color: #f1c40f;
+    color: #1a1a1a;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.forming button:hover {
+    background-color: #d4ac0d;
+}
+
+.error {
+    color: #ff6b6b;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.forming label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #ffffff;
+    display: block;
+}
+
+.forming select {
+    width: 80%;  
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.forming select option {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+/* message */
+.messsage {
+    background-color: #2a2a2a;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: #ffffff;
+    width: 500px;
+    margin: 100px auto;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.messsage h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #f1c40f;
+}
+
+.messsage figure {
+    margin: 0;
+    padding: 0;
+}
+
+.messsage img {
+    width: 150px;  
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.messsage figcaption {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/*car details */
+.car_details {
+    background-color: #2a2a2a;
+    color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    max-width: 700px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.car_details img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.car_details h1 {
+    font-size: 36px;
+    margin: 20px 0;
+    color: #ffffff;
+}
+
+.car_details p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+.car_details p strong {
+    font-weight: bold;
+    color: #f1c40f;
+}
+
+.car_details .actions {
+    margin-top: 30px;
+}
+
+.car_details form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.car_details input[type="date"] {
+    padding: 10px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border: 1px solid #444;
+    border-radius: 5px;
+    width: 200px;
+}
